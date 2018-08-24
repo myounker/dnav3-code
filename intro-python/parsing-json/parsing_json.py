@@ -31,3 +31,30 @@ json_data = json.loads(json_text)
 # Display the type and contents of the json_data variable
 print("json_data is a", type(json_data))
 pprint(json_data)
+#print(json_data)
+
+
+# *** THIS CODE IS BROKEN *** The index into the datastruct doesn't work this way
+#print('\n')
+#print('with LOOP name ==>')
+#for i in json_data["ietf-interfaces:interface"]["i"]:
+#   print(i["name"])
+# *** THIS CODE IS BROKEN *** The index into the datastruct doesn't work this way
+
+print('with LOOP name ==>')
+for i in json_data["ietf-interfaces:interface"]:
+    print(json_data["ietf-interfaces:interface"][i])
+    if json_data["ietf-interfaces:interface"][i] == "name":
+        print(json_data["ietf-interfaces:interface"][i])
+        print('foobar')
+
+'''
+print('\n')
+print('with LOOP name ==>')
+for i in json_data["ietf-interfaces:interface"]["name"]:
+   print(i)
+'''
+
+print('\n')
+print('without LOOP name ==>')
+print(json_data["ietf-interfaces:interface"]["name"])
