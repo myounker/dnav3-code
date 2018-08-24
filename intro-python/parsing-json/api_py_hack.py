@@ -6,7 +6,7 @@ import json
 
 # build request string
 url = 'https://api.ciscospark.com/v1/teams'
-header = {'Authorization' : 'Bearer NjlhZmE0Y2MtNmJkMC00ZjEyLWI5YmYtNDdkZTNjZmJiNzZjNWQ3MTI3MzctZTgy'}
+header = {'Authorization' : 'Bearer <redacted>'}
 
 # make request
 r = requests.get(url, headers=header)
