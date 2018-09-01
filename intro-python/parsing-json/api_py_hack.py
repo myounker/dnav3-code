@@ -29,7 +29,7 @@ import requests
 url = "https://api.ciscospark.com/v1/teams"
 
 headers = {
-    'Authorization': "Bearer NjlhZmE0Y2MtNmJkMC00ZjEyLWI5YmYtNDdkZTNjZmJiNzZjNWQ3MTI3MzctZTgy",
+    'Authorization': "Bearer [MY KEY ID HERE]",
     'Cache-Control': "no-cache",
     'Postman-Token': "d03ab41e-6e96-4019-b74e-bf6ee39e21a3"
     }
