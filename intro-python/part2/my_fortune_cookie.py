@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """Script flow and debugging. Print your own fortune cookie!"""
+""" code by myounker 1 Sep 2018 """
 
 
 import random
